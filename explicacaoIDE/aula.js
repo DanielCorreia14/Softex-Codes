@@ -1,0 +1,1 @@
+console.log("Configurei o vscode com extensões para melhor utilizar ele durante o curso, instalei code runner e live server para verificar pontualmente cada modificação feita por mim nos arquivos JS")
