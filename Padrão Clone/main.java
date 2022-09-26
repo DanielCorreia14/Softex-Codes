@@ -56,8 +56,8 @@ public class Aplicacao implements Cloneable{
 @Override
 public String toString() {
     
-    return super.m1.clone();
-    return super.v1.clone();
+    return m1.clone();
+    return v1.clone();
 }
 
 }
