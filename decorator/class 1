@@ -1,0 +1,30 @@
+
+namespace x
+{
+    class FrangoAssado implements Sanduiche
+    {
+        double _preco = 4.50;
+        string _descricao = "adicional de frango";
+
+       
+        public addfrango(Sanduiche sandu)
+        {
+           _sandu = sandu;
+        }
+       
+        public override double Preco
+        {
+            get
+            {
+                return sandu.preco + _preco;
+            }
+        }
+        public override string Descricao
+        {
+            get
+            {
+                return _sandu.Descricao. + _descricao;
+            }
+        }
+    }
+}
