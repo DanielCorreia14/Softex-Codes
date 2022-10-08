@@ -1,0 +1,17 @@
+namespace x
+{
+    public abstract class DecoratorSanduiche implements Sanduiche
+    {
+        double _preco = 0.00;
+        string _descricao = "Decorador";
+
+        public override double _preco
+        {
+            get { return _preco; }  
+    }
+    public override string Descricao
+        {
+            get { return _descricao; }
+        }
+}
+}
