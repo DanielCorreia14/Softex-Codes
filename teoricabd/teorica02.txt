@@ -1,0 +1,19 @@
+1 – Análise de requisitos
+O primeiro passo para a criação do modelo correto é entender a necessidade. A isso chamamos de Análise de Requisitos.
+É preciso, primeiramente, levantar os requisitos que darão a ideia inicial do sistema. Nessa fase — que é considerada a mais importante do processo —, procura-se entender a regra de negócio estabelecida, por meio da qual será desenhado o que chamamos de minimundo. 
+Esse termo procura descrever o universo de relações de negócios que serão atendidas pelo modelo a ser implementado.
+
+2 – Modelo conceitual
+A seguir há o Modelo Conceitual. Nessa etapa as informações obtidas no passo anterior servem como entrada para geração do desenho conceitual. 
+Costuma-se utilizar o recurso chamado modelo entidade-relacionamento, em que se define os agentes que farão parte das rotinas e os relacionamentos entre esses agentes.
+
+3 – Modelo lógico
+Nessa etapa, são definidos os aspectos físicos do projeto de banco de dados. Cada entidade tende a se tornar uma tabela, que armazenará informações. 
+Nessa fase é hora de definir os tipos de dados e tamanho dos campos que vão armazenar as informações.
+
+Modelo físico
+Aqui, chega a última, mas não menos importante fase do desenho. Nesse momento já existe uma ideia bastante precisa de banco de dados. 
+Nessa fase é que os detalhes físicos são definidos: armazenamento dos dados, geração dos scripts que irão criar as tabelas e visões do banco.
+Essa fase também marca um importante detalhe: todas as fases anteriores foram executadas independente da plataforma de software de banco de dados que seria usada. 
+Agora, cada ação está diretamente ligada à solução de SGDB (Sistema Gerenciador de Banco de Dados). 
+Para cada produto existente no mercado, há as melhores práticas e recomendações dos especialistas em administração de bancos de dados, também chamados DBAs.
