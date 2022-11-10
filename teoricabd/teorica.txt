@@ -1,0 +1,15 @@
+Dados também podem ser um conjunto de informações que constituem uma informação. A informação é o dado organizado que possui algum sentido. Um texto, por exemplo, 
+pode ser uma informação, uma fonte de muitas informações ou um conjunto de informações.
+
+Um banco de dados é uma coleção organizada de informações - ou dados - estruturadas, normalmente armazenadas eletronicamente em um sistema de computador. 
+Um banco de dados é geralmente controlado por um sistema de gerenciamento de banco de dados (SGBD).
+
+Modelos de dados são representações visuais dos elementos de dados de uma empresa e as conexões entre eles. 
+Ao ajudar a definir e estruturar dados no contexto de processos empresariais relevantes, os modelos apoiam o desenvolvimento de sistemas de informação eficazes.
+
+Metadados, ou Metainformação, são dados sobre outros dados. Um item de um metadado pode dizer do que se trata aquele dado, geralmente uma informação inteligível por um computador. 
+Os metadados facilitam o entendimento dos relacionamentos e a utilidade das informações dos dados.
+
+
+Catálogo de dados é um inventário organizado de ativos de dados na organização. Ele usa metadados para ajudar as organizações a gerenciarem seus dados. 
+Também ajuda os profissionais de dados a coletar, organizar, acessar e enriquecer metadados para oferecer suporte à descoberta e governança de dados.
