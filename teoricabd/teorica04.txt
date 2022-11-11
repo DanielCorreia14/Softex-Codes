@@ -1,0 +1,21 @@
+Consulta_1 = σ  nota > 7,0 
+Consulta_2 = σ (serie = "1°").and.(nota > 8,0)
+Consulta_3 = π u.nome,nota 
+Criação_4 = create table professor{
+id_professor primary key;
+p.nome varchar 100;
+u.nome varchar 100;
+} 
+Criação_5 = create table aluno{
+id_aluno primary key;
+p.nome varchar 100;
+u.nome varchar 100;
+} 
+
+select p.nome,u.nome as nome from aluno a full join professor p  on p.id_professor = a.id_aluno;//união completa
+
+select p.nome,u.nome as nome from aluno a inner join professor p  on p.id_professor = a.id_aluno;//intersecção
+
+select p.nome,u.nome as nome from aluno a full join professor p where p.id_professor != a.id_aluno;
+
+
