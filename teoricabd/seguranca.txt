@@ -1,0 +1,22 @@
+A tríade da segurança da informação 
+A segurança da informação tem como base três pilares: confidencialidade, integridade e disponibilidade. Esses aspectos, devem ser desenvolvidos simultaneamente e são vitais para o estabelecimento da cultura de proteção de dados. 
+
+Confidencialidade
+A confidencialidade é a premissa que garante a privacidade e a proteção dos dados contra acessos indevidos. Esse pilar visa assegurar o sigilo total de informações específicas, evitando que ações maliciosas exponham seu conteúdo, causando prejuízos à corporação. 
+
+As medidas de confidencialidade devem ser persistentes e prevalecer em todo o tratamento das informações, sejam elas da empresa ou de titulares que consentiram com as atividades. Elas devem ser empenhadas principalmente na transmissão dos dados e em seu destino.
+
+É necessário olhar para a informação sob o ponto de vista do risco, pensando em como sua publicação ou mau uso podem representar danos à empresa, sejam em sua imagem, financeiros ou contratuais.
+
+
+Integridade
+A premissa de integridade está associada à confiança e consistência dos dados. O foco maior está em garantir que as informações se mantenham exatas, sem erros e livres de alterações não autorizadas, para que possam ser empregadas de maneira segura pela corporação.
+A integridade pode ser comprometida de várias maneiras. Por isso, cada vez que os dados são replicados ou transferidos, é preciso se certificar de que eles permanecerão intactos e inalterados.
+
+Ambientes que cumprem com esse atributo de segurança devem garantir que atacantes externos ou mesmo erros não intencionais não consigam alterar e corromper os dados.
+
+
+Disponibilidade
+Esse pilar da segurança da informação visa manter os dados ativos e disponíveis para serem usados quando for necessário, com desempenho adequado.  É um aspecto importante para a melhora da continuidade do negócio, já que busca minimizar impactos de problemas nas operações da empresa.
+
+Isso porque, com a popularização dos sistemas de informação, qualquer queda em disponibilidade pode inviabilizar contatos, vendas, contratos e outras ações, além de prejudicar o relacionamento com os clientes.
