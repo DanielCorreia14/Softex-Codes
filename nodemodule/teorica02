@@ -1,0 +1,15 @@
+const http = require('http')
+const port = 3000
+const server = http.createServer((req, res) => {
+  res.statusCode = 200
+  res.setHeader('Content-Type', 'text/plain')
+  res.end('Olá Mundo!n')
+})
+server.listen(port, () => {
+  console.log(`Servidor iniciou em http://localhost:${port}/`)
+})
+
+
+
+para rodar basta executar o arquivo no terminal escrevendo node nomedoarquivo.js
+para testar e saber a resposta da requisicao, baixa instalar insomnia e rodar o endereço da porta lá e ver qual mensagem irá sair.
