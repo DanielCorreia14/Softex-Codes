@@ -1,0 +1,20 @@
+Toda a comunicação entre cliente e servidor, como no padrão Cliente Web Thin, é feita com HTTP. Como o HTTP é um tipo de protocolo "sem conexão", na maior parte do tempo não há uma conexão aberta entre cliente e servidor. O cliente só envia informações durante as solicitações de páginas. Isso significa que os scripts, os controles ActiveX e os Applets Java do cliente estão limitados à interação com objetos somente no cliente.
+
+O padrão Cliente Web Thick utiliza determinados recursos do navegador como controles ActiveX e Applets Java para executar a lógica de negócios no cliente. Os controles ActiveX são programas executáveis binários e compilados, cujo download no cliente pode ser feito via HTTP, e que podem ser chamados pelo navegador. Como os controles ActiveX são essencialmente objetos COM, eles têm total domínio sobre os recursos do cliente. Podem interagir tanto com o navegador como com o próprio sistema cliente. Por esse motivo, os controles ActiveX, especialmente os da Internet, são normalmente "autenticados" por terceiros confiáveis.
+
+As versões mais recentes dos navegadores HTML mais conhecidos também permitem que o cliente produza scripts. As páginas HTML podem ser incorporadas com scripts escritos em Java Script ou VB Script. Essa capacidade de criação de scripts permite que o próprio navegador execute (ou interprete) o código que pode ser parte da lógica do negócio do sistema. O termo "pode ser" é utilizado porque é muito comum que os scripts de cliente colaborem somente com os aspectos externos da interface com o usuário, não fazendo realmente parte da lógica de negócios. Nos dois casos, há elementos potencialmente importantes do ponto de vista da arquitetura (isto é, scripts), incorporados às páginas HTML, que precisam ser expressos como tal.
+
+
+
+
+const http = require('http');
+const hostname = '127.0.0.1';
+const port = 3000;
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Ola Mundo!\nBem vindo ao nodejs');
+});
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
