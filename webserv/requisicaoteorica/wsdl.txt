@@ -1,0 +1,7 @@
+WSDL é um a descrição em formato XML de um Web Service que utilizará SOAP / RPC como protocolo. É o acrônimo de Web Services Description Language (Linguagem de Descrição de Serviços Web).
+
+RPC – Remote Procedure Calls (em português, chamada de procedimentos remotos) é um modelo que define a forma como são realizadas as chamadas a operações remotas através de web services.
+
+Por meio de um WSDL você informa ao cliente como cada serviço em um end-point deve ser invocado: quais os parâmetros e tipo de dados de cada parâmetro é esperado, e qual o tipo de dado do retorno será enviado como resposta.
+
+Além de descrever cada serviço (que pode ser comparado analogamente à um método a ser executado no programa servidor), também descreve como podem ser encontrados.
