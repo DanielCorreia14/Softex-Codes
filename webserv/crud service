@@ -1,0 +1,55 @@
+const express = require('express');
+const server = express();
+
+server.get('/geeks, (
+
+req, res) => {
+return res.json( { message: ‘Hello world’ });
+})
+
+server.listen(3000);
+server.get('/geeks', (req, res) => {
+return res.json(geeks);
+})
+
+server.post('/geeks', checkUserExists, (req, res) => {
+const { name } = req.body; // assim esperamos buscar o name informado dentro do body da requisição
+geeks.push(name);
+return res.json(geeks); // retorna a informação da variável geeks
+})
+
+const express = require('express');
+const server = express();
+server.use(express.json()); // faz com que o express entenda JSON
+const geeks = [];
+
+server.get('/geeks', (req, res) => {
+return res.json(geeks);
+})
+
+server.get('/geeks/:index', checkUserInArray, (req, res) => {
+return res.json(req.user);
+})
+
+server.post('/geeks', (req, res) => {
+const { name } = req.body
+
+geeks.push(name);
+
+return res.json(geeks);
+
+})
+
+server.listen(3000);
+server.put('/geeks/:index', (req, res) => {
+const { index } = req.params; // recupera o index com os dados
+const { name } = req.body;
+
+geeks[index] = name;
+return res.json(geeks);
+})
+server.delete('/geeks/:index', (req, res) => {
+const { index } = req.params;
+geeks.splice(index, 1);
+return res.send();
+});
