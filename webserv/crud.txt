@@ -1,0 +1,10 @@
+O que é esse tal de CRUD? Nada mais é do que um conjunto de operações que você pode fazer dentro do seu banco de dados.
+
+Essa é uma sigla para Create, Read, Update e Delete. Que traduzindo seria criar, ler, atualizar e deletar.
+
+
+create table livro(
+nome varchar(100),
+isbn int,
+autor varchar(100)
+);
