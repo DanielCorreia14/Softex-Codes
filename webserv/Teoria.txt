@@ -1,0 +1,3 @@
+SOAP é um sistema de protocolo de comunicação padrão que permite que processos usando diferentes sistemas operacionais, como Linux e Windows, se comuniquem via HTTP e XML. As APIs baseadas em SOAP foram projetadas para criar, recuperar, atualizar e excluir registros como contas, senhas, leads e objetos personalizados.
+
+As APIs SOAP aproveitam as vantagens de criar protocolos baseados na Web, como HTTP e XML, que já estão operando em todos os sistemas operacionais. É por isso que seus desenvolvedores podem manipular facilmente os serviços da Web e obter respostas sem se importar com o idioma e as plataformas.
